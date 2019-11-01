@@ -1,8 +1,8 @@
 {
-  "name": "Voronina",
+  "name": "Test-ivi",
   "version": "1.0.0",
   "private": true,
-  "description": "Проект «Voronina»",
+  "description": "Проект «Test-ivi»",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "^1.0.0",
     "autoprefixer": "^9.6.1",

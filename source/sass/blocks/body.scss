@@ -1,0 +1,18 @@
+.boddy-css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+@media (min-width: $tablet-width) {
+  .boddy-css {
+    width: 50%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .boddy-css {
+    width: 50%;
+  }
+}
