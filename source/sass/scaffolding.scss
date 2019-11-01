@@ -1,0 +1,76 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("../fonts/SourceSerifPro-Light.ttf.woff2") format("woff2"), url("../fonts/SourceSerifPro-light.ttf.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("../fonts/SourceSerifPro-Regular.ttf.woff2") format("woff2"), url("../fonts/SourceSerifPro-Regular.ttf.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("../fonts/SourceSerifPro-Semibold.ttf.woff2") format("woff2"), url("../fonts/SourceSerifPro-Semibold.ttf.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Pro";
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("../fonts/SourceSerifPro-Bold.ttf.woff2") format("woff2"), url("../fonts/SourceSerifPro-Bold.ttf.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Variable";
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("../fonts/SourceSerifVariable-Roman.ttf.woff2") format("woff2"), url("../fonts/SourceSerifVariable-Roman.ttf.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Source Serif Variable";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+  src: url("../fonts/SourceSerifVariable-Roman.ttf.woff2") format("woff2"), url("../fonts/SourceSerifVariable-Roman.ttf.woff") format("woff");
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
